@@ -36,7 +36,7 @@ Docker Compose setup (Postgres + Redis + optional pgAdmin)
 
 Swagger/OpenAPI docs via drf-spectacular
 
-Quick Setup
+#Quick Setup
 
 1) Docker Setup:
    
