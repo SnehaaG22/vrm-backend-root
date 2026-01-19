@@ -38,16 +38,20 @@ Swagger/OpenAPI docs via drf-spectacular
 
 Quick Setup
 
-1) Docker Setup
+1) Docker Setup:
+   
 docker compose up -d
+
 Services: postgres, redis, optional pgadmin
 
-2) Django Setup
+3) Django Setup:
+   
 pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
 
-3) Seed Demo Data
+5) Seed Demo Data:
+   
    python manage.py seed_demo
 
 This will create:
