@@ -6,17 +6,27 @@ It supports multi-tenant organizations, RBAC permissions, audit logging, and com
 
 Features:
 
-Multi-tenant support (org_id scoped models)
-Role-based access control (Admin, Reviewer, Requester, Vendor)
-Audit logging for critical write actions
+Multi-tenant support (org_id scoped models).
+
+Role-based access control (Admin, Reviewer, Requester, Vendor).
+
+Audit logging for critical write actions.
+
 Models for:
 accounts: Users, roles, permissions
+
 orgs: Tenants
+
 vendors + vendor users
+
 templates + sections + questions + template versions
+
 assessments + responses
+
 evidence with expiry dates
+
 reviews, findings, remediations
+
 renewals
 audit_logs
 Demo data seeding (manage.py seed_demo)
