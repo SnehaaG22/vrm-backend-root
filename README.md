@@ -47,7 +47,9 @@ Services: postgres, redis, optional pgadmin
 3) Django Setup:
    
 pip install -r requirements.txt
+
 python manage.py makemigrations
+
 python manage.py migrate
 
 5) Seed Demo Data:
@@ -55,12 +57,19 @@ python manage.py migrate
    python manage.py seed_demo
 
 This will create:
+
 1 organization (Demo Org)
+
 3 users: admin, reviewer, requester
+
 2 vendors + vendor users
+
 1 template + 2 sections + sample questions
+
 2 assessments in different statuses
+
 1 remediation example + evidence expiry
 
-4) Run Development Server
+4) Run Development Server:
+   
    python manage.py runserver
