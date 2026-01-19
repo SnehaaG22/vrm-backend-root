@@ -4,7 +4,8 @@ Overview:
 This repository provides the backend foundation for a Vendor Risk Management (VRM) / Third-Party Risk Management (TPRM) system built with Django, Django REST Framework, and PostgreSQL.
 It supports multi-tenant organizations, RBAC permissions, audit logging, and comes with a demo data seeding command for easy setup.
 
-Features
+Features:
+
 Multi-tenant support (org_id scoped models)
 Role-based access control (Admin, Reviewer, Requester, Vendor)
 Audit logging for critical write actions
