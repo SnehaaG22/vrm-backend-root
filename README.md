@@ -29,8 +29,11 @@ reviews, findings, remediations
 
 renewals
 audit_logs
+
 Demo data seeding (manage.py seed_demo)
+
 Docker Compose setup (Postgres + Redis + optional pgAdmin)
+
 Swagger/OpenAPI docs via drf-spectacular
 
 Quick Setup
