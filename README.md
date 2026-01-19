@@ -1,5 +1,6 @@
 #VRM/TPRM Backend – Django + DRF + PostgreSQL
-Overview
+
+Overview:
 This repository provides the backend foundation for a Vendor Risk Management (VRM) / Third-Party Risk Management (TPRM) system built with Django, Django REST Framework, and PostgreSQL.
 It supports multi-tenant organizations, RBAC permissions, audit logging, and comes with a demo data seeding command for easy setup.
 
